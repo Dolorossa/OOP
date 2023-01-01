@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../hashtag/include/hashtag.h
+iostream
+-
+cstdlib
+-
+string
+-
+cctype
+-
+
+/code/hashtag/src/hashtag.cpp
+hashtag.h
+/code/hashtag/src/hashtag.h
+
