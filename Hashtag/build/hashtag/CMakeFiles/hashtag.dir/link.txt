@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhashtag.a CMakeFiles/hashtag.dir/src/hashtag.cpp.o
+/usr/bin/ranlib libhashtag.a
