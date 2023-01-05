@@ -16,4 +16,4 @@ add_executable(main main.cpp)
 target_link_libraries(main hashtag)
 
 add_executable(tests tests.cpp)
-target_link_libraries(tests stack gtest gtest_main)
+target_link_libraries(tests hashtag gtest gtest_main)
