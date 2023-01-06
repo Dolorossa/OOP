@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../task_3/include/task_3.h
+iostream
+-
+string
+-
+algorithm
+-
+cmath
+-
+
+/code/task_3/src/task_3.cpp
+task_3.h
+/code/task_3/src/task_3.h
+

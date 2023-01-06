@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  gcc-cmake:
+    build: .
+    image: gcc-cmake
+    container_name: gcc-cmake-container
+    tty: true
+    volumes:
+      - ${CODE_DIR:-.}:/code
