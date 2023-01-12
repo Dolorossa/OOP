@@ -9,10 +9,6 @@
 
 using namespace std;
 
-//const string alpha ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-
-
-
 
 int main(){
    

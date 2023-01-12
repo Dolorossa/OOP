@@ -1,10 +1,6 @@
 #include "task_3.h"
 
-
 using namespace std;
-
-//const string alpha ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-
 
 string turn_bin(int int_input, int num){ 
    int check=0;

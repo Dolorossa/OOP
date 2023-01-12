@@ -1,0 +1,8 @@
+arifmetic mean = 4
+minimal even = 0
+number of palindroms = 8
+A = 
+134 66 68 37 
+87 56 56 31 
+124 58 57 34 
+111 69 50 29 
