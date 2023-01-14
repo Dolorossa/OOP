@@ -14,8 +14,15 @@ int main()
     string str;
     
     getline(cin, str);
+
+    try{
     
     cout<<TurnToHashtag(str);
+
+    }
+    catch (const char* e) {
+		cout << "Exception: " << e;
+	}
 
     return 0;
 }

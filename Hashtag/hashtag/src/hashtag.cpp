@@ -5,22 +5,26 @@ std::string TurnToHashtag(std::string str){
     bool flag=true;
     std::string hashtag="#";
 
-    if (str.size() > 0)
+    for (int i = 0; i < str.size(); i++)
     {
-        for (int i = 0; i < str.size(); i++)
+    if (str[i] != ' ' && str[i] != ',')
+        if (flag)
         {
-            if (str[i] != ' ' && str[i] != ',')
-                if (flag)
-                {
-                    hashtag += (char)toupper(str[i]);
-                    flag = false;
-                }
-                else hashtag += str[i];
-            else flag = true;
+            hashtag += (char)toupper(str[i]);
+            flag = false;
         }
-
-        if (hashtag.size() <= 100) return hashtag;
-        else return "Exception";
+        else
+            hashtag += str[i];
+    else
+        flag = true;
     }
-    else return "Exception";
+
+    if (hashtag == "#")
+    throw "empty string";
+
+    if (hashtag.size() > 100)
+    throw "size > 100";
+
+    return hashtag;
+
 };

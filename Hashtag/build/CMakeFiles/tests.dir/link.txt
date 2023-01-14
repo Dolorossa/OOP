@@ -1,0 +1,1 @@
+/usr/local/bin/c++ CMakeFiles/tests.dir/tests.cpp.o -o tests  hashtag/libhashtag.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a -lpthread 

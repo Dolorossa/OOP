@@ -4,7 +4,9 @@
 TEST(HashtagTest, HashtagCreate)
 {   
     EXPECT_EQ(TurnToHashtag("sit home, watch cartoons"), "#SitHomeWatchCartoons");
-    EXPECT_EQ(TurnToHashtag(""), "Exception");
-
 }
 
+TEST(ExeptionTest, EmptyString)
+{
+    ASSERT_THROW(TurnToHashtag(""), const char*);
+}
